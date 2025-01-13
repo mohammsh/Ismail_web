@@ -10,7 +10,6 @@ import TestComponent from '@/components/TestComponent';  // Import TestComponent
 export default function Home() {
   return (
     <main>
-      <h1>Test Page Loaded</h1>
       <Hero />
       <About />
       <Services />

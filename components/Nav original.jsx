@@ -10,7 +10,13 @@ import { motion } from 'framer-motion';
 const links = [
   { path: '/', name: 'home' },
   { path: '/projects', name: 'my projects' },
-  { path: '/blogs', name: 'my blogs' }, // New tab for "My Blogs"
+  // { path: '/contact', name: 'contact' },
+];
+
+const links2 = [
+  { path: '/', name: 'home' },
+  { path: '/projects', name: 'my blog' },
+  // { path: '/contact', name: 'contact' },
 ];
 
 const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
