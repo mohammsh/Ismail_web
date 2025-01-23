@@ -1,0 +1,45 @@
+.incident-container {
+    padding: 20px;
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .incident-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .incident-visual {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .incident-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .incident-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .incident-left, .incident-right {
+    flex: 1;
+  }
+  
+  .incident-left h2, .incident-right h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .incident-footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
