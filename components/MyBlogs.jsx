@@ -40,6 +40,16 @@ const blogData = [
     approved: true,
     publishedDate: "2025-01-20",
   },
+  {
+    title: "Cloud Risk assessment Process",
+    description: "Risk Managemnt process.",
+    slug: "cloudRiskassessmentProcess",
+    link: "/blogs/cloudRiskassessmentProcess",
+    category: "Security",
+    author: "Security Team",
+    approved: true,
+    publishedDate: "2025-01-20",
+  },
 ];
 
 const ITEMS_PER_PAGE = 2;

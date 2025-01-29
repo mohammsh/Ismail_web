@@ -2,7 +2,7 @@
 
 const IncidentReportingGuide = () => {
   return (
-    <div className="p-6 max-w-5xl mx-auto bg-gradient-to-r from-purple-100 to-indigo-200 rounded-lg shadow-2xl">
+    <div className="p-6 max-w-4xl mx-auto bg-gradient-to-r from-purple-100 to-indigo-200 rounded-lg shadow-2xl">
       {/* Title and Banner */}
       <div className="text-center mb-8 relative">
         <h1 className="text-3xl font-bold text-gray-900 mb-2 tracking-wide z-10">

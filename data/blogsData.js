@@ -1,4 +1,8 @@
-import IncidentReportingGuide from "../components/IncidentReportingGuide";
+import dynamic from "next/dynamic";
+
+// Dynamically import components to ensure they are client-side
+const IncidentReportingGuide = dynamic(() => import("../components/IncidentReportingGuide"), { ssr: false });
+const cloudRiskassessmentProcess = dynamic(() => import("../components/cloudRiskassessmentProcess"), { ssr: false });
 
 export const blogData = {
   "cybersecurity-guide": {
@@ -27,6 +31,13 @@ export const blogData = {
     description: "Learn how to report security incidents effectively.",
     author: "Security Team",
     publishedDate: "2025-01-10",
-    content: <IncidentReportingGuide />, // Render the component
+    content: IncidentReportingGuide, // Reference the dynamic import directly
+  },
+  "cloudRiskassessmentProcess": {
+    title: "Cloud Risk Assessment Process",
+    description: "Risk Assessment process",
+    author: "Security Team",
+    publishedDate: "2025-01-10",
+    content: cloudRiskassessmentProcess, // Reference the dynamic import directly
   },
 };

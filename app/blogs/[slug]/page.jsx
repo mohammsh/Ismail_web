@@ -11,6 +11,8 @@ const BlogPost = ({ params }) => {
     return <p>Blog not found!</p>; // If no blog matches the slug
   }
 
+  const ContentComponent = blog.content; // This is now a valid component reference
+
   return (
     <div className="p-6">
       <h1 className="text-3xl font-bold mb-4">{blog.title}</h1>
@@ -18,7 +20,9 @@ const BlogPost = ({ params }) => {
         By {blog.author} | Published on {blog.publishedDate}
       </p>
       <p className="text-lg">{blog.description}</p>
-      <div className="mt-4">{blog.content}</div>
+      <div className="mt-4">
+        <ContentComponent /> {/* Render the dynamic client-side component */}
+      </div>
     </div>
   );
 };

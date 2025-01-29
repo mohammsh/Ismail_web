@@ -12,8 +12,18 @@ const BlogList = () => {
           </Link>
         </li>
         <li>
+          <Link href="/blogs/cloudRiskassessmentProcess" target="_blank">
+            Visit Blog: cloudRiskassessmentProcess
+          </Link>
+        </li>
+        <li>
           <Link href="/blogs/ai-in-cybersecurity" target="_blank">
             Visit Blog: AI in Cybersecurity
+          </Link>
+        </li>
+        <li>
+          <Link href="/blogs/Cloud-Risk-assessment-Process" target="_blank">
+            Visit Blog: Cloud-Risk-assessment-Process
           </Link>
         </li>
         <li>
